@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.margin{
+		margin: 75% 0:
+	}
+	.parallax{
+		background: url(dimage.jpg) repeat fixed 100%;
+	}
+	.parallax-inner{
+		padding-top: 30%;
+		padding-bottom: 30%;
+	}
+	h1{
+		text-align: center;
+		font-size: 500%;
+		color: #fff;
+		letter-spacing:3px; 
+	}
+		
+	
+	
+	
+

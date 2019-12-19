@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size:25px; 
+	
+}
+#nav {
+	background-color: dimgrey ;
+	text-align: center ; 
+	border-top-width: 5px;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+	margin-left: -10px
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:  fixed;
+    min-width: 200px;
+
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+	background-color: #1E1E1E;
+}
+#nav ul li a, visited {
+	color: #A5A5A5;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li:hover ul {
+    
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color:  #686868;
+    border: 5px solid #1e1e1e;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #A5A5A5 ;
+}
